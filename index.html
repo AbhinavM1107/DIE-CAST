@@ -11,7 +11,6 @@
             margin: 0;
             padding: 0;
             background-color: #406879b6;
-            
         }
         header {
             background-color: #333;
@@ -31,29 +30,30 @@
             padding: 20px;
             border-radius: 5px;
         }
-        *{
+        * {
             box-sizing: border-box;
         }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
         .column {
-            float: left;
-            width: 33.33%;
-            padding: 5px;
-         }
-         .row::after {
-            content: "";
-            display: table;
-            clear: both;
-         }
-        
-
-        
-        
+            flex: 1 1 30%;
+            padding: 10px;
+            max-width: 30%;
+        }
+        .column img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>MY WEBSITE</h1>
+    <h1>Its_All_About_Collection</h1>
 </header>
 
 <div class="container">
@@ -61,50 +61,46 @@
         <h2>DIE-CAST PHOTOGRAPHY</h2>
         <p>1:64 DIE-CAST MODEL HAS BEEN USED</p>
     </div>
-<div class="row">
-    <div class="column">
-        <img src="bug.JPG" width="60%;">
+    <div class="row">
+        <div class="column">
+            <img src="bug.JPG" alt="Bug">
+        </div>
+        <div class="column">
+            <img src="fast.jpeg" alt="Fast">
+        </div>
+        <div class="column">
+            <img src="snow.jpeg" alt="Snow">
+        </div>
+        <div class="column">
+            <img src="JEEP.HEIC" alt="Jeep">
+        </div>
+        <div class="column">
+            <img src="TANK.heic" alt="Tank">
+        </div>
+        <div class="column">
+            <img src="DO.JPG.heic" alt="Do">
+        </div>
+        <div class="column">
+            <img src="IMG_5123.heic" alt="IMG 5123">
+        </div>
+        <div class="column">
+            <img src="IMG_5243.heic" alt="IMG 5243">
+        </div>
+        <div class="column">
+            <img src="IMG_5913.heic" alt="IMG 5913">
+        </div>
+        <div class="column">
+            <img src="IMG_6683.JPG" alt="IMG 6683">
+        </div>
+        <div class="column">
+            <img src="MUS.JPG" alt="MUS">
+        </div>
+        <div class="column">
+            <img src="TRAC.JPEG" alt="TRAC">
+        </div>
     </div>
-    <div class="column">
-        <img src="fast.jpeg" width="70%";>
-    </div>
-    <div class="column">
-        <img src="snow.jpeg" width="100%;">
-    </div>
-    <div class="column">
-        <img src="JEEP.HEIC" width="100%;">
-    </div>
-    <div class="column">
-        <img src="TANK.heic" width="100%;">
-    </div>
-    <div class="column">
-        <img src="DO.JPG.heic" width="100%;">
-    </div>
-    <div class="column">
-        <img src="IMG_5123.heic" width="100%;">
-    </div>
-    <div class="column">
-        <img src="IMG_5243.heic" width="100%;">
-    </div>
-    <div class="column">
-        <img src="IMG_5913.heic" width="100%;">
-    </div>
-    <div class="column">
-        <img src="IMG_6683.JPG" width="100%;">
-    </div>
-    <div class="column">
-        <img src="MUS.JPG" width="100%;">
-    </div>
-    <div class="column">
-        <img src="TRAC.JPEG" width="100%;">
-    </div>
-
-
-
-
 </div>
-
-
 
 </body>
 </html>
+
